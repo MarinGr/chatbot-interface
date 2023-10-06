@@ -8,8 +8,8 @@ export const useChatbotStore = defineStore("chatbotStore", {
       isChatOpen: true,
       responses: {
         "Order pizza": "Sure, I will order pizza. What else can I do for you?",
-        "Set an alarm clock":
-          "Ok, I will set an alarm clock. What else can I do for you?",
+        "Set alarm clock":
+          "Ok, I will set alarm clock. What else can I do for you?",
         "Show weather":
           "Ok, I will show current weather. What else can I do for you?",
       },

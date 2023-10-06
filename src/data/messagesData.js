@@ -7,7 +7,7 @@ export const messagesData = [
     text: "Hello, what can I do for you?",
     options: [
       { id: uuidv4(), message: "Order pizza" },
-      { id: uuidv4(), message: "Set an alarm clock" },
+      { id: uuidv4(), message: "Set alarm clock" },
       { id: uuidv4(), message: "Show weather" },
     ],
     isLoading: true,

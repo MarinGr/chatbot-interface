@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+:root {
+  --white: rgb(255, 255, 255);
+  --body-bg-color: rgb(236, 239, 241);
+  --app-bg-color: rgb(255, 255, 255);
+  --messageArea-bg-color: rgb(231, 242, 248);
+  --primary-color: rgb(20, 96, 238);
+  --secondary-color: rgb(195, 198, 202);
+  --accent-color: rgb(186, 207, 248);
+  --text-color-dark: rgb(51, 51, 51);
+  --text-color-light: rgb(255, 255, 255);
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: var(--body-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
 <template>
-  <div>Chatbot app</div>
+  <ChatBot />
 </template>
 
-<script></script>
-
-<style></style>
+<script setup>
+import ChatBot from "./components/ChatBot.vue";
+</script>
